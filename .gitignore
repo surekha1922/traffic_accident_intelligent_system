@@ -1,0 +1,14 @@
+# Ignore large datasets
+data/US_Accidents_March23.csv
+
+# Ignore all CSVs except small_data
+data/*.csv
+!data/small_data.csv
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env
